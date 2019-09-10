@@ -3,80 +3,92 @@
   
 <!-- Mirrored from madsparrow.me/emily/albums.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Sep 2019 13:22:20 GMT -->
 <head>
-    <title>Emily - Creative Photography Portfolio</title>
+    <title>NIRMITI - ALBUMS</title>
     <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/ico/favicon.png" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" integrity="sha256-cNEAbEDCqByWSWu+oZQUfI69IVjhz4Bz/e2EkuDsFEI=" crossorigin="anonymous"></script>
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="assets/css/plugins.min.css">
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <script>
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+    </script>
   </head>
   <body>
-    <div class="ms-main-container">
+    <div class="ms-main-container albumback" id="particle-js">
       <!-- Preloader -->
       <div class="ms-preloader"></div>
       <!-- Header -->
-      <header class="ms-header">
+      <header class="ms-header albumback1">
         <nav class="ms-nav">
           <div class="ms-logo">
-            <a href="index.html" data-type="page-transition">
-              <div class="logo-dark current"><img src="nblack.svg" alt="logo image"></div>
-              <div class="logo-light"><img src="nwhite.svg" alt="logo image"></div>
+            <a href="home1.html" data-type="page-transition">
+              <div class="logo-dark"><img src="nblack.svg" alt="logo image"></div>
+              <div class="logo-light current"><img src="nwhite.svg" alt="logo image"></div>
             </a>
           </div>
+          <div class="gallery">GALLERY</div>
           <button class="hamburger" type="button" data-toggle="navigation">
           <span class="hamburger-box">
-            <span class="hamburger-label">menu</span>
-            <span class="hamburger-inner"></span>
+            <span class="hamburger-label"></span>
+            <span class="hamburger-inner" id="buttonham"></span>
           </span>
           </button>
           <div class="height-full-viewport">
             <ul class="ms-navbar">
               <!-- Nav Link -->
               <li class="nav-item">
-                <a href="index.html" data-type="page-transition">
-                  <span class="ms-btn">home</span>
-                  <span class="nav-item__label">Back to home page</span>
-                </a>
-              </li>
-              <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="albums.html" data-type="page-transition">
-                  <span class="ms-btn">albums</span>
-                  <span class="nav-item__label">View all our works</span>
-                </a>
-              </li>
-              <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="gallery.html" data-type="page-transition">
-                  <span class="ms-btn">gallery</span>
-                  <span class="nav-item__label">Interactively disintermediate</span>
-                </a>
-              </li>
-              <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="blog.html" data-type="page-transition">
-                  <span class="ms-btn">blog</span>
-                  <span class="nav-item__label">Discover fascinating stories</span>
-                </a>
-              </li>
-              <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="about.html" data-type="page-transition">
-                  <span class="ms-btn">about</span>
-                  <span class="nav-item__label">Learn more about the author</span>
-                </a>
-              </li>
-              <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="contact.html" data-type="page-transition">
-                  <span class="ms-btn">contact</span>
-                  <span class="nav-item__label">Get in touch and find us</span>
-                </a>
-              </li>
+                  <a href="home1.html" data-type="page-transition">
+                    <span class="ms-btn">home</span>
+                    <span class="nav-item__label">Back to home page</span>
+                  </a>
+                </li>
+                <!-- Nav Link -->
+                <li class="nav-item">
+                  <a href="albums.html" data-type="page-transition">
+                    <span class="ms-btn">gallery</span>
+                    <span class="nav-item__label">View all our works</span>
+                  </a>
+                </li>
+                <!-- Nav Link -->
+                <li class="nav-item">
+                  <a href="gallery.html" data-type="page-transition">
+                    <span class="ms-btn">team</span>
+                    <span class="nav-item__label">Our team</span>
+                  </a>
+                </li>
+                <!-- Nav Link -->
+                <li class="nav-item">
+                  <a href="blog.html" data-type="page-transition">
+                    <span class="ms-btn">events</span>
+                    <span class="nav-item__label">Discover fascinating events</span>
+                  </a>
+                </li>
+                <!-- Nav Link -->
+                <li class="nav-item">
+                  <a href="about.html" data-type="page-transition">
+                    <span class="ms-btn">about</span>
+                    <span class="nav-item__label">Learn more about the society</span>
+                  </a>
+                </li>
+                <!-- Nav Link -->
+                <li class="nav-item">
+                  <a href="contact.html" data-type="page-transition">
+                    <span class="ms-btn">contact</span>
+                    <span class="nav-item__label">Get in touch and find us</span>
+                  </a>
+                </li>
             </ul>
           </div>
         </nav>
@@ -84,12 +96,12 @@
       <!-- Container -->
       <main class="ms-container">
         <!-- Page Title -->
-        <div class="ms-section__block" id="here">
+        <!-- <div class="ms-section__block" id="here">
           <div class="ms-page-title">
             <h2 class="page-header">Gallery</h2>
             <p class="page-desc">Assertively synthesize state of the art testing procedures via sticky niches.</p>
           </div>
-        </div>
+        </div> -->
         <!-- Page Content -->
         <div class="ms-section__block">
           <div id="albums">
@@ -261,14 +273,14 @@
         </div>
       </main>
       <!-- Footer -->
-      <footer>
+      <footer class="footer-album">
         <div class="ms-footer">
           <div class="copyright">Copyright © 2017. Design by MadSparrow</div>
           <ul class="socials">
-            <li><a href="#" class="socicon-facebook"></a></li>
-            <li><a href="#" class="socicon-twitter"></a></li>
-            <li><a href="#" class="socicon-instagram"></a></li>
-            <li><a href="#" class="socicon-youtube"></a></li>
+            <li><a href="#" class="socicon-facebook fa fa-facebook"></a></li>
+            <li><a href="#" class="socicon-twitter fa fa-twitter"></a></li>
+            <li><a href="#" class="socicon-instagram fa fa-instagram"></a></li>
+            <li><a href="#" class="socicon-youtube fa fa-youtube"></a></li>
           </ul>
         </div>
       </footer>

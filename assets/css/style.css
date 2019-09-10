@@ -371,7 +371,7 @@ p {
     text-transform: uppercase;
     line-height: 1.5em;
     transition: color .3s ease .4s;
-    color: #151515;
+    color: white;
 }
 .hamburger.is-active .hamburger-label {
     color: #fff !important;
@@ -385,6 +385,7 @@ p {
     vertical-align: middle;
 }
 .hamburger-inner {
+    color: white !important;
     display: block;
     top: 0;
 }
@@ -829,7 +830,18 @@ p {
 /**
  * 5. Albums
  */
-
+#albums{
+    text-align: center !important;
+}
+.buttonham{
+    color: white !important;
+}
+.albumback{
+    background-color: black;
+}
+.albumback1{
+    background-color: transparent !important;
+}
 .filtr-container {
     transition: height .5s ease-out;
     overflow: hidden;
@@ -839,13 +851,23 @@ p {
     margin-bottom: 2.4em;
 }
 .filtr-btn li {
+    color: white !important;
     cursor: pointer;
     display: inline-block;
     opacity: .5;
     margin-bottom: 15px;
     transition: opacity .3s ease;
 }
+.gallery{
+    color: white;
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin-left: 42%;
+    font-size: 45px;
+    text-align: center;
+}
 .filtr-btn h6 {
+    color: white !important; 
     margin-bottom: 0;
     padding-right: 1.2em;
 }
@@ -1346,4 +1368,55 @@ footer {
     background: url("assets/images/bg.jpg");
     background-repeat: no-repeat;
     
+}
+
+.cordi{
+    display: flex;
+}
+
+.cordi-card{
+    text-align: center;
+    flex: 1;
+    padding: 4%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.cordi-card img{
+    border-radius: 50%;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+}
+
+.memb-1, .memb-2, .memb-3{
+    display: flex;
+    margin-top: 4%;
+}
+
+.memb-card{
+    flex: 1;
+    padding: 2%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.memb-card img{
+    border-radius: 50%; 
+}
+
+.name-card{
+    font-size: 30px;
+    /* text-align: center; */
+    padding: 4%;
+}
+.name-card1{
+    font-size: 30px;
+    text-align: center;
+    padding: 4%;
+}
+
+.footer-album{
+    background: black;
+    color: white;
 }

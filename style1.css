@@ -1,0 +1,132 @@
+body{
+    background: black;
+    height: 100%;
+}
+/* #myvideo{
+    position: fixed;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+} */
+
+.video-container video {
+    display: block;
+    width: 100%;
+}
+video {
+    clip-path: url(#clip-00);
+  }
+.circular{
+    text-align: center;
+    color: white ;
+    margin-top: 20%;
+}
+.circular p{
+    font-size: 44px;
+    letter-spacing: 10px;
+}
+
+#svgdiv{
+    /* position: absolute; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#demo3{
+    /* position: absolute; */
+    font-size: 18px;
+    letter-spacing: 30px;
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#demo4{
+    /* position: absolute; */
+    font-size: 12px;
+    letter-spacing: 19px;
+    margin: 0;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#demo4 {
+    -webkit-animation: rotation 120s infinite linear;
+}
+
+#demo3 {
+    font-family: here;
+    -webkit-animation: rotation1 2000s infinite linear;
+}
+
+.clipping-paths {
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+
+  svg {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#yobitch{
+    /* margin-left: 0px !important; */
+    -webkit-animation: rotation2 10s infinite linear;
+    /* transform: translate(0 900); */
+    /* transition: transform 10s; */
+}
+
+
+@font-face {
+    font-family: here;
+    src: url("assets/fonts/neuropolitical/neuropolitical\ rg.ttf");
+}
+
+@font-face {
+    font-family: here1;
+    src: url("assets/fonts/nasalization-free/nasalization-rg.ttf");
+}
+
+@font-face {
+    font-family: here2;
+    src: url("assets/fonts/battlelines/battlelines.ttf");
+}
+
+@-webkit-keyframes rotation2 {
+    from {
+            -webkit-transform: translateX(0 900);
+            /* margin-left: 0px; */
+    }
+    to {
+        /* margin-left: -900px; */
+            -webkit-transform: translate(-900 900);
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes rotation1 {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(-359deg);
+    }
+}
