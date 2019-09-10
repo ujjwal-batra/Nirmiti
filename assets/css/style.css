@@ -1388,21 +1388,23 @@ footer {
 .head{
     text-align: center;
     font-size: 30px;
+    color: white;
 }
 
-.memb-1, .memb-2, .memb-3{
+.memb-1, .memb-2, .memb-3, .memb-4{
     display: flex;
     margin-top: 4%;
 }
 
 .memb-card{
     flex: 1;
-    padding: 2%;
-    border-radius: 100%;
+    padding: 1% 6%;
+    /* border-radius: 100%; */
     overflow: hidden;
 }
 .memb-card img{
-    border-radius: 50%; 
+    /* position: relative; */
+    /* border-radius: 50%;  */
 }
 
 .name-card{
@@ -1411,9 +1413,15 @@ footer {
     padding: 4%;
 }
 .name-card1{
-    font-size: 30px;
+    background: #f5cae5;
+    color: black;
+    padding: 1%;
+    margin-top: -3.5%;
+    letter-spacing: 2px;
+    margin-left: 8%;
+    position: absolute;
+    font-size: 24px;
     text-align: center;
-    padding: 4%;
 }
 
 .footer-album{
