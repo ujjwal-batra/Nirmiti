@@ -61,7 +61,7 @@ video {
 
 #demo3 {
     font-family: here;
-    -webkit-animation: rotation1 2000s infinite linear;
+    -webkit-animation: rotation1 800s infinite linear;
 }
 
 .clipping-paths {
@@ -71,6 +71,7 @@ video {
   }
 
   svg {
+      /* background: blue !important; */
     width: 0;
     height: 0;
     position: absolute;
@@ -82,7 +83,8 @@ a{
 #yobitch{
     /* margin-left: 0px !important; */
     transform: translate(0, 1000px);
-    -webkit-animation: rotation2 280s infinite linear;
+    letter-spacing: -2px;
+    -webkit-animation: rotation2 60s infinite linear;
     /* transform: translate(0 900); */
     /* transition: transform 10s; */
 }
@@ -114,7 +116,7 @@ a{
     }
     50% {
         /* margin-left: -900px; */
-            -webkit-transform: translate(-3200px, 1000px);
+            -webkit-transform: translate(-1300px, 1000px);
     }
     100%{
         -webkit-transform: translate(0, 1000px);
