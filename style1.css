@@ -81,7 +81,8 @@ a{
 }
 #yobitch{
     /* margin-left: 0px !important; */
-    -webkit-animation: rotation2 10s infinite linear;
+    transform: translate(0, 950px);
+    -webkit-animation: rotation2 280s infinite linear;
     /* transform: translate(0 900); */
     /* transition: transform 10s; */
 }
@@ -99,17 +100,24 @@ a{
 
 @font-face {
     font-family: here2;
-    src: url("assets/fonts/battlelines/battlelines.ttf");
+    src: url("assets/fonts/stencilia/Stencilia-A.ttf");
+}
+@font-face {
+    font-family: here3;
+    src: url("assets/fonts/yonder-recoil/yonder\ recoil.ttf");
 }
 
 @-webkit-keyframes rotation2 {
-    from {
-            -webkit-transform: translateX(0 900);
+    0% {
+            -webkit-transform: translate(0, 950px);
             /* margin-left: 0px; */
     }
-    to {
+    50% {
         /* margin-left: -900px; */
-            -webkit-transform: translate(-900 900);
+            -webkit-transform: translate(-4200px, 950px);
+    }
+    100%{
+        -webkit-transform: translate(0, 950px);
     }
 }
 
@@ -124,7 +132,7 @@ a{
 
 @-webkit-keyframes rotation1 {
     from {
-            -webkit-transform: rotate(0deg);
+            -webkit-transform: rotate(60deg);
     }
     to {
             -webkit-transform: rotate(-359deg);
