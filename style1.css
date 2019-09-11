@@ -81,7 +81,7 @@ a{
 }
 #yobitch{
     /* margin-left: 0px !important; */
-    transform: translate(0, 950px);
+    transform: translate(0, 1000px);
     -webkit-animation: rotation2 280s infinite linear;
     /* transform: translate(0 900); */
     /* transition: transform 10s; */
@@ -109,15 +109,15 @@ a{
 
 @-webkit-keyframes rotation2 {
     0% {
-            -webkit-transform: translate(0, 950px);
+            -webkit-transform: translate(0, 1000px);
             /* margin-left: 0px; */
     }
     50% {
         /* margin-left: -900px; */
-            -webkit-transform: translate(-4200px, 950px);
+            -webkit-transform: translate(-3200px, 1000px);
     }
     100%{
-        -webkit-transform: translate(0, 950px);
+        -webkit-transform: translate(0, 1000px);
     }
 }
 
