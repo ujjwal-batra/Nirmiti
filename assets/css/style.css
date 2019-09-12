@@ -840,7 +840,7 @@ p {
     background-color: black;
 }
 .albumback1{
-    background-color: transparent !important;
+    background-color: black !important;
 }
 .filtr-container {
     transition: height .5s ease-out;
@@ -1387,10 +1387,12 @@ footer {
 }
 .head{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
-
+.head-memb{
+    margin-top: 20px;
+}
 .memb-1, .memb-2, .memb-3, .memb-4{
     display: flex;
     margin-top: 4%;
@@ -1413,12 +1415,13 @@ footer {
     padding: 4%;
 }
 .name-card1{
-    background: #f5cae5;
-    color: black;
+    background: #a110c4;
+    color: white;
+    width: 290px;
     padding: 1%;
     margin-top: -3.5%;
     letter-spacing: 2px;
-    margin-left: 8%;
+    margin-left: 7%;
     position: absolute;
     font-size: 24px;
     text-align: center;
