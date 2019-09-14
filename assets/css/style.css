@@ -1391,7 +1391,13 @@ footer {
     color: white;
 }
 .head-memb{
-    margin-top: 20px;
+
+    margin-top: 20px !important;
+}
+.cordi-1{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .memb-1, .memb-2, .memb-3, .memb-4{
     display: flex;
@@ -1417,17 +1423,21 @@ footer {
 .name-card1{
     background: #a110c4;
     color: white;
-    width: 290px;
+    width: 19%;
     padding: 1%;
     margin-top: -3.5%;
     letter-spacing: 2px;
     margin-left: 7%;
     position: absolute;
-    font-size: 24px;
+    font-size: 160%;
     text-align: center;
 }
 
 .footer-album{
     background: black;
     color: white;
+}
+
+.video-container{
+    background: white !important;
 }

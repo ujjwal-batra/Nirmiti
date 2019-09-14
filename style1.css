@@ -1,4 +1,6 @@
 body{
+    margin: 0px;
+    padding: 0px;
     background: black;
     height: 100%;
 }
@@ -8,7 +10,16 @@ body{
     min-width: 100%; 
     min-height: 100%;
 } */
-
+.header{
+    font-family: here3;
+    color: white;
+    position: absolute;
+}
+.header div{
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 50px;
+}
 .video-container video {
     display: block;
     width: 100%;
@@ -43,6 +54,9 @@ video {
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.video-container{
+    background-color: #141414;
 }
 #demo4{
     /* position: absolute; */
@@ -84,7 +98,7 @@ a{
     /* margin-left: 0px !important; */
     transform: translate(0, 1000px);
     letter-spacing: -2px;
-    -webkit-animation: rotation2 60s infinite linear;
+    -webkit-animation: rotation2 45s infinite linear;
     /* transform: translate(0 900); */
     /* transition: transform 10s; */
 }
@@ -106,20 +120,57 @@ a{
 }
 @font-face {
     font-family: here3;
-    src: url("assets/fonts/yonder-recoil/yonder\ recoil.ttf");
+    src: url("assets/fonts/andasia/x/y.ttf");
 }
 
 @-webkit-keyframes rotation2 {
     0% {
-            -webkit-transform: translate(0, 1000px);
+            -webkit-transform: translate(-100px, 1000px);
             /* margin-left: 0px; */
     }
     50% {
         /* margin-left: -900px; */
-            -webkit-transform: translate(-1300px, 1000px);
+            -webkit-transform: translate(-900px, 1000px);
     }
     100%{
-        -webkit-transform: translate(0, 1000px);
+        -webkit-transform: translate(-100px, 1000px);
+    }
+}
+.circle1{
+    font-family: here;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background: white;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    overflow: hidden;
+    color: black !important;
+    z-index: 100;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: width 1s, height 1s, margin 0s, padding-top 1s;
+    /* -webkit-animation: expand 1s infinite linear; */
+}
+.me:hover .circle1{
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+    padding-top: 40px;
+    /* -webkit-animation: expand 1s linear; */
+}
+@-webkit-keyframes expand{
+    from {
+            width: 0px;
+            height: 0px;
+            margin: 0px;
+    }
+    to {
+            width: 40px;
+            height: 40px;
+            margin: -20px
     }
 }
 
